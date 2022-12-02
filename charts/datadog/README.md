@@ -686,6 +686,7 @@ helm install <RELEASE_NAME> \
 | datadog.site | string | `nil` | The site of the Datadog intake to send Agent data to. (documentation: https://docs.datadoghq.com/getting_started/site/) |
 | datadog.systemProbe.apparmor | string | `"unconfined"` | Specify a apparmor profile for system-probe |
 | datadog.systemProbe.bpfDebug | bool | `false` | Enable logging for kernel debug |
+| datadog.systemProbe.btfPath | string | `""` | Specify the path to a BTF file for your kernel |
 | datadog.systemProbe.collectDNSStats | bool | `true` | Enable DNS stat collection |
 | datadog.systemProbe.conntrackInitTimeout | string | `"10s"` | the time to wait for conntrack to initialize before failing |
 | datadog.systemProbe.conntrackMaxStateSize | int | `131072` | the maximum size of the userspace conntrack cache |
